@@ -72,7 +72,7 @@ class LoginRequest extends FormRequest
      */
     protected function passedValidation(): void
     {
-        Log::info('Registration Validation Successful');
+        Log::info('Login Validation Successful');
     }
 
     /**
